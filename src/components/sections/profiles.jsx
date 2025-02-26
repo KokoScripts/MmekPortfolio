@@ -55,7 +55,7 @@ const ProfileShowcase = () => {
       <div className="max-w-6xl mx-auto relative">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">My Presence ✨ </h2>
-          <p className="text-gray-400 text-lg">Find my content across the web</p>
+          <p className="text-gray-400 text-lg">Track my digital footprint</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 relative">
