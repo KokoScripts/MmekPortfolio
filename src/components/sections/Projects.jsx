@@ -81,6 +81,29 @@ const ProjectSection = ({ title, projects, isEven }) => {
 
 const Projects = () => {
   const projectCategories = {
+    certifications: {
+      title: "Certifications",
+      projects: [
+        {
+          title: "AWS Cloud Practitioner",
+          description: "A comprehensive guide on integrating OpenAI's image generation capabilities with React applications.",
+          tags: ["Cloud Basics", "OpenAI", "Technical Writing"],
+          links: { preview: "https://hackernoon.com/a-guide-to-building-an-image-generator-with-react-and-openai" },
+        },
+        {
+          title: "AWS Certiified Solutions Architect - Associate",
+          description: "A beginner's guide to working with Large Language Models using the PaLM API.",
+          tags: ["Cloud Infrastructure", "AWS Service", "Cloud Data"],
+          links: { preview: "https://hackernoon.com/a-beginners-guide-to-using-large-language-models-llms-with-the-palm-api" },
+        },
+        {
+          title: "AWS Solutions Architect",
+          description: "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
+          tags: ["Cloud Infrastructure", "Cloud Data", "Cloud Services"],
+          links: { preview: "https://www.credly.com/badges/74fa2eca-4e96-43b0-a85e-e6c056d866f5/public_url" },
+        },
+      ],
+    },
     technicalArticles: {
       title: "Technical Articles",
       projects: [

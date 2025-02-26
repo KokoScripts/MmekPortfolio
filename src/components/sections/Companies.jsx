@@ -3,24 +3,16 @@ import React from 'react';
 export default function Companies() {
   const companies = [
     {
-      name: "Nylas",
-      link: "https://developer.nylas.com/",
-      image: "/new_nylas_logo_blue.png"
+      name: "VPNCentral",
+      image: "/VPNCentral-dark.png"
     },
     {
-      name: "Rootstock",
-      link: "https://dev.rootstock.io/",
-      image: "/rootstock.png"
+      name: "Hack51",
+      image: "/Hack51.png"
     },
     {
-      name: "Accumulate",
-      link: "https://docs.accumulatenetwork.io/accumulate",
-      image: "/accumulate-logo.png"
-    },
-    {
-      name: "Builtin",
-      link: "https://builtin.com/articles/technical-writing-key-product-success",
-      image: "/built-in-1.jpg"
+      name: "RoyalAssistants",
+      image: "/Royalassistants.jpg"
     },
   ];
 
@@ -29,7 +21,7 @@ export default function Companies() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Companies I've worked with 🤝</h2>
-          <p className="text-gray-400 text-lg">Collaborating with amazing teams around the world</p>
+          <p className="text-gray-400 text-lg">Creating magic with great teams across the globe</p>
         </div>
 
         <div className="flex flex-wrap justify-center gap-12">

@@ -5,27 +5,27 @@ export default function Services() {
   const services = [
     {
       title: "API Documentation",
-      description: "I create comprehensive API references and guides using industry-standard tools like OpenAPI, Swagger, and Postman.",
+      description: "I develop detailed API references and guides using industry-standard tools such as OpenAPI, Swagger, and Postman.",
       icon: <Code className="w-8 h-8 mb-4 text-purple-400" />,
-      stats: "5+ APIs documented"
+      stats: "2+ APIs documented"
     },
     {
       title: "Technical Content",
-      description: "I author detailed technical guides, tutorials, and articles focused on developer tools and cloud technologies.",
+      description: "I create in-depth technical guides, tutorials, and articles on Cloud, Blockchain, Web3, Cybersecurity for diverse audiences.",
       icon: <Files className="w-8 h-8 mb-4 text-blue-400" />,
-      stats: "70+ articles published"
+      stats: "120+ articles published"
     },
     {
-      title: "Documentation Strategy",
-      description: "I lead documentation initiatives, including content organization, style guides, and documentation workflows.",
+      title: "Content Structuring",
+      description: "I design and implement structured documentation frameworks, ensuring clarity, consistency, ease of navigation and alignment with style guides.",
       icon: <BookOpen className="w-8 h-8 mb-4 text-green-400" />,
-      stats: "5+ documentation portals"
+      stats: "3+ documentation portals"
     },
     {
       title: "Technical Mentoring",
-      description: "I conduct recorded technical classes on YouTube, helping developers master documentation and technical writing.",
+      description: "I hold online and offline classes with students on technical documentation",
       icon: <Users className="w-8 h-8 mb-4 text-yellow-400" />,
-      stats: "100+ students mentored"
+      stats: "15+ students mentored"
     }
   ];
 
@@ -33,8 +33,8 @@ export default function Services() {
     <section className="py-20 px-6 bg-[#1a1f2e]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4">My Expertise 🎯</h2>
-          <p className="text-gray-400 text-lg">A summary of my documentation and technical writing expertise</p>
+          <h2 className="text-3xl font-bold mb-4">My Professional Focus🎯</h2>
+          <p className="text-gray-400 text-lg">A summary of my skills and experience in documentation and technical writing.</p>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">

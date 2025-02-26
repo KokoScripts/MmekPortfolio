@@ -5,37 +5,22 @@ const ProfileShowcase = () => {
   const [activeCard, setActiveCard] = useState(null);
 
   const profiles = [
-    {
-      platform: "Substack",
-      username: "@wisdomnwokocha",
-      link: "https://substack.com/@wisdomnwokocha",
-      description: "Join and be part of my journey of life through my newsletter!",
-      color: "from-purple-500 to-blue-500",
-      icon: "🗞️"
-    },
+
     {
       platform: "Hashnode",
-      username: "@wise4rmgod",
-      link: "https://wise4rmgod.hashnode.dev/",
+      username: "@TeckSis",
+      link: "https://hashnode.com/@TeckSis",
       description: "Cloud & DevOps tutorials, best practices, and insights",
       color: "from-purple-500 to-blue-500",
       icon: "🌐"
     },
     {
       platform: "Dev.to",
-      username: "@wise4rmgod",
-      link: "https://dev.to/wise4rmgod",
-      description: "Web development articles and coding tutorials",
+      username: "@techwithekon",
+      link: "https://dev.to/techwithekon",
+      description: "Comprehensive web development articles and hands-on coding tutorials.",
       color: "from-black to-gray-800",
       icon: "👨‍💻"
-    },
-    {
-      platform: "Hackernoon",
-      username: "@wise4rmgod",
-      link: "https://hackernoon.com/u/wise4rmgod",
-      description: "Deep tutorials on tech trends and programming",
-      color: "from-green-500 to-emerald-700",
-      icon: "🚀"
     },
     {
       platform: "Resume",
