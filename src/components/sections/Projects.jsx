@@ -88,7 +88,7 @@ const Projects = () => {
           title: "AWS Cloud Practitioner",
           description: "I earned this certification by gaining a fundamental understanding of IT services, cloud fluency, and foundational AWS knowledge, enabling me to identify essential AWS services for AWS-focused projects.",
           tags: ["Cloud Basics", "AWS", "Cloud Computing"],
-          links: { preview: "https://hackernoon.com/a-guide-to-building-an-image-generator-with-react-and-openai" },
+          links: { preview: "https://www.credly.com/badges/8d78e9c4-6361-4d69-9a39-9de10ed0ec96/public_url" },
         },
         {
           title: "AWS Solutions Architect - Associate",
