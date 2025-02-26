@@ -9,9 +9,9 @@ export default function Hero() {
         <div className="font-mono md:w-2/3">
           <TypeAnimation
             sequence={[
-              'Technical Documentation Engineer ✍🏾',
+              'Technical Writer 👩🏾‍💻',
               2000,
-              'Building Developer Experiences ✍🏾',
+              'Simplifying Complex Technical Information ✍🏾',
               2000,
               'Creating API Documentation ✍🏾',
               2000,
@@ -24,16 +24,12 @@ export default function Hero() {
           />
           <br />
           <p className="text-2xl text-gray-200">
-            Hello, World! 👋 I'm Wisdom ⚡️
+            Hi there! 👋 Mmek Ekon Here.
           </p>
           <br />
           <p className="text-xl text-gray-300">
-            I'm known as the "Docs Guru." With over five years of experience as a Technical Writer specializing in Developer and API Documentation, 
-            <br />  <br />
-           I work with companies worldwide to showcase their innovative solutions to diverse audiences. 
-            My expertise lies in collaborating with SaaS providers. 
-            <br /> <br />
-            I am passionate about docs-as-code, open source, workflow optimization, API documentation, style guide development, and creating engaging visual resources.
+          I'm experienced in creating API documentation, user manuals/guides, FAQs, Installation guides,Technical blogposts, process documentation and policies & procedures. 
+          I also enjoy sharing knowledge and exchanging ideas and tips.
           </p>
         </div>
         {/* Right Image */}
