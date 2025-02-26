@@ -223,7 +223,7 @@ const SkillsMarquee = () => {
       <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-gray-900 via-gray-900/90 to-transparent" />
       
       {/* Scrolling content with improved spacing and animation */}
-      <div className="flex animate-[marquee_30s_linear_infinite] whitespace-nowrap">
+      <div className="flex animate-[marquee_7s_linear_infinite] whitespace-nowrap">
         {[...skills, ...skills].map((skill, index) => (
           <div
             key={`${skill.name}-${index}`}
