@@ -13,11 +13,11 @@ export default function Hero() {
               2000,
               'Simplifying Complex Technical Information ✍🏾',
               2000,
-              'Creating API Documsentation ✍🏾',
+              'Creating API Documentation ✍🏾',
               2000,
             ]}
             wrapper="h1"
-            speed={30}
+            speed={5}
             className="text-5xl font-bold mb-6"
             repeat={Infinity}
             cursor={true}
