@@ -13,7 +13,7 @@ export default function Services() {
       title: "Technical Content",
       description: "I create in-depth technical guides, tutorials, and articles on Cloud, Blockchain, Web3, Cybersecurity for diverse audiences.",
       icon: <Files className="w-8 h-8 mb-4 text-blue-400" />,
-      stats: "120+ articles published"
+      stats: "80+ articles published"
     },
     {
       title: "Content Structuring",
@@ -25,7 +25,7 @@ export default function Services() {
       title: "Technical Mentoring",
       description: "I hold online and offline classes with students on technical documentation",
       icon: <Users className="w-8 h-8 mb-4 text-yellow-400" />,
-      stats: "15+ students mentored"
+      stats: "6+ students mentored"
     }
   ];
 
