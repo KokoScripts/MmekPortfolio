@@ -86,21 +86,21 @@ const Projects = () => {
       projects: [
         {
           title: "AWS Cloud Practitioner",
-          description: "A comprehensive guide on integrating OpenAI's image generation capabilities with React applications.",
-          tags: ["Cloud Basics", "OpenAI", "Technical Writing"],
+          description: "I earned this certification by gaining a fundamental understanding of IT services, cloud fluency, and foundational AWS knowledge, enabling me to identify essential AWS services for AWS-focused projects.",
+          tags: ["Cloud Basics", "AWS", "Cloud Computing"],
           links: { preview: "https://hackernoon.com/a-guide-to-building-an-image-generator-with-react-and-openai" },
         },
         {
-          title: "AWS Certiified Solutions Architect - Associate",
-          description: "A beginner's guide to working with Large Language Models using the PaLM API.",
+          title: "AWS Solutions Architect - Associate",
+          description: "I earned this certification by mastering AWS services and technologies, demonstrating the ability to design secure, scalable, resilient, and efficient cloud solutions based on customer needs.",
           tags: ["Cloud Infrastructure", "AWS Service", "Cloud Data"],
-          links: { preview: "https://hackernoon.com/a-beginners-guide-to-using-large-language-models-llms-with-the-palm-api" },
+          links: { preview: "https://www.credly.com/badges/74fa2eca-4e96-43b0-a85e-e6c056d866f5/public_url" },
         },
         {
-          title: "AWS Solutions Architect",
-          description: "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
-          tags: ["Cloud Infrastructure", "Cloud Data", "Cloud Services"],
-          links: { preview: "https://www.credly.com/badges/74fa2eca-4e96-43b0-a85e-e6c056d866f5/public_url" },
+          title: "API Technical Writing",
+          description: "I completed the API Technical Writing course on Udemy, gaining hands-on experience in writing API documentation, understanding JSON and XML structures, and effectively communicating technical concepts to developers and end users.",
+          tags: ["Technical Writing", "JSON", "XML"],
+          links: { preview: "/APITechWriting.pdf" },
         },
       ],
     },
@@ -203,8 +203,8 @@ const Projects = () => {
         }
       ],
     },
-    documentationSites: {
-      title: "Developer Documentation",
+    whitepapers: {
+      title: "Whitepapers",
       projects: [
         {
           title: "NeuBird AI API Guide",
@@ -218,52 +218,10 @@ const Projects = () => {
           tags: ["Technical Writing", "Education"],
           links: { preview: "https://technicalwritingmp.com/" },
         },
-        {
-          title: "Interswitch Developer Docs",
-          description: "Developer documentation for Interswitch payment integration and services.",
-          tags: ["Payments", "Integration", "API"],
-          links: { preview: "https://docs.interswitchgroup.com/v1.1/docs/home" },
-        },
-        {
-          title: "Accumulate Network Docs",
-          description: "Technical documentation for the Accumulate blockchain network protocols and APIs.",
-          tags: ["Blockchain", "Documentation"],
-          links: { preview: "https://docs.accumulatenetwork.io" },
-        },
-        {
-          title: "Nylas Developer Portal",
-          description: "Complete developer documentation for Nylas email, calendar, and contacts APIs.",
-          tags: ["API", "Integration", "Email"],
-          links: { preview: "https://developer.nylas.com" },
-        },
-        {
-          title: "Jetpack Compose Tutorial",
-          description: "Comprehensive tutorial for Android development with Jetpack Compose.",
-          tags: ["Android", "Kotlin", "Mobile"],
-          links: { preview: "https://wise4rmgod.github.io/Jetpack-Compose-Tutorial/" },
-        },
-        {
-          title: "AI Assessment Tool",
-          description: "Documentation portal for AI assessment reporting tool with comprehensive guides and examples.",
-          tags: ["AI", "Documentation", "Assessment"],
-          links: { preview: "https://www.aiat.report/report/about" },
-        },
-        {
-          title: "Blockchain Beginner Guide",
-          description: "Educational resource for blockchain development fundamentals.",
-          tags: ["Blockchain", "Tutorial", "Web3"],
-          links: { preview: "https://beginnerblockchain.netlify.app" },
-        },
-        {
-          title: "Rootstock Developer Portal",
-          description: "Developer documentation for building on the Rootstock blockchain platform.",
-          tags: ["Blockchain", "Smart Contracts", "Web3"],
-          links: { preview: "https://dev.rootstock.io" },
-        }
       ],
     },
     blockchainArticles: {
-      title: "Blockchain Office Hours",
+      title: "Blockchain & Web3",
       projects: [
         {
           title: "The Graph Indexer Office Hours #160",
@@ -279,8 +237,8 @@ const Projects = () => {
         }
       ],
     },
-    openSourceContributions: {
-      title: "Open Source Contributions",
+    policiesprocedures: {
+      title: "Policies & Procedures",
       projects: [
         {
           title: "Go Ethereum (Geth) Documentation",
