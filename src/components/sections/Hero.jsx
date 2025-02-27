@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="font-mono md:w-2/3">
           <TypeAnimation
             sequence={[
-              'As a Technical Writer 👩🏾‍💻',
+              'Technical Writer 👩🏾‍💻',
               2000,
 
               'I Simplify Technical Information',
