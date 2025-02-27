@@ -9,18 +9,20 @@ export default function Hero() {
         <div className="font-mono md:w-2/3">
           <TypeAnimation
             sequence={[
-              'Technical Writer 👩🏾‍💻',
+              'As a Technical Writer 👩🏾‍💻',
               2000,
-              'Simplifying Complex Technical Information ✍🏾',
+
+              'I Simplify Technical Information',
               2000,
-              'Creating API Documentation ✍🏾',
+ 
+              'I Create API Documentation',
               2000,
             ]}
             wrapper="h1"
             speed={5}
-            className="text-5xl font-bold mb-6"
+            className="text-5xl font-bold mb-6-h-[70px]"
             repeat={Infinity}
-            cursor={true}
+            cursor={false}
           />
           <br />
           <p className="text-2xl text-gray-200">
